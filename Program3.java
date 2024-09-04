@@ -25,7 +25,7 @@ public class Program{
         System.out.println("The width is " + width);
         
         System.out.println("The area is " + length*width);
-        System.out.println("The perimeter is " + 2*length + 2*width);
+        System.out.println("The perimeter is " + 2*length + 2*width); // Test this and make sure it works properly (Hint: it doesnt)
     }
 }
 
