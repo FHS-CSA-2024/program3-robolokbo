@@ -9,8 +9,6 @@ public class Program{
         //declare variables
         int length = 0;
         int width = 0;
-        int area = 0 ;
-        int perimeter = 0;
         
         //creating my scanner and asking for user input
         Scanner numScanner = new Scanner(System.in);
@@ -20,12 +18,16 @@ public class Program{
         System.out.println("Enter the width: ");
         width = numScanner.nextInt();
         
+        //calculate area and perimeter
+        int area = length * width;
+        int perimeter = 2*length + 2*width;
+        
         //print results
         System.out.println("The length is " + length);
         System.out.println("The width is " + width);
         
-        System.out.println("The area is " + length*width);
-        System.out.println("The perimeter is " + 2*length + 2*width);
+        System.out.println("The area is " + area);
+        System.out.println("The perimeter is " + perimeter); // Fixed this code on 9/8/24
     }
 }
 
@@ -35,12 +37,12 @@ public class Program{
 /*
  * 
 Enter the length: 
-6
+143
 Enter the width: 
-9
-The length is 6
-The width is 9
-The area is 54
-The perimeter is 1218
+82
+The length is 143
+The width is 82
+The area is 11726
+The perimeter is 450
 
 */
